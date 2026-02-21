@@ -40,7 +40,7 @@ connected to a modern Android UI.
 </ol>
 
 <pre>
-git clone https://github.com/yourusername/wavetablesynthesizer.git
+git clone https://github.com/Jaydeep505/wavetablesynthesizer.git
 </pre>
 
 <ol start="2">
