@@ -53,17 +53,11 @@ git clone https://github.com/Jaydeep505/wavetablesynthesizer.git
 
 <h2>📸 App Screenshot</h2>
 
-<p>
-Place your screenshot inside a folder like:
-</p>
 
 <pre>
 /screenshots/app.png
 </pre>
 
-<p>
-Then display it like this:
-</p>
 
 <img src="screenshots/app.png" width="300"/>
 
