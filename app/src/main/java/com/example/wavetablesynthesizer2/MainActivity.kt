@@ -122,7 +122,7 @@ fun WavetableSelectionButtons(modifier: Modifier,
             WavetableButton(
                 modifier = modifier,
                 onClick = {synthesizerViewModel.setWavetable(wavetable)
-                          },
+                },
                 label = stringResource(wavetable.toResourceString())
 
             )
@@ -202,10 +202,21 @@ fun PitchControlContent(
     onValueChange: (Float) -> Unit,
     valueRange: ClosedFloatingPointRange<Float>,
     frequencyValueLabel: String
-){
-    Text(pitchControlLabel)
-    Slider(modifier = modifier, value = value, onValueChange = onValueChange, valueRange = valueRange)
-    Text(frequencyValueLabel)
+) {
+    Text(pitchControlLabel, modifier = modifier)
+    Slider(
+        modifier = modifier,
+        value = value,
+        onValueChange = onValueChange,
+        valueRange = valueRange
+    )
+    Row(
+        modifier = modifier,
+        horizontalArrangement = Arrangement.Center
+    ) {
+
+        Text(modifier = modifier, text = frequencyValueLabel)
+    }
 }
 @Composable
 fun PlayControl(modifier: Modifier,
