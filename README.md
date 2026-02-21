@@ -69,6 +69,3 @@ Then display it like this:
 
 <hr/>
 
-Jaydeep Gupta<br/>
-M.Sc. Electrical & Computer Engineering
-</p>
